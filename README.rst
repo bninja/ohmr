@@ -29,7 +29,7 @@ To use it first create a tracer e.g. like:
     import coid
     import ohmr
     
-    trace = coid.Tracer(encode_id=coid.Id(prefix='OHM-'))
+    trace = coid.Tracer(coid.Id(prefix='OHM-'))
     
 Then use it, most likely at session begin/resume points, e.g. like:
 
