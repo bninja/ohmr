@@ -23,7 +23,7 @@ setuptools.setup(
     ],
     extras_require={
         'tests': [
-            'coid >=0.1,<0.2',
+            'coid >=0.1.1,<0.2',
             'pytest >=2.5.2,<3',
             'pytest-cov >=1.7,<2',
         ],
